@@ -19,9 +19,10 @@ class SELFBOT():
 application_id = 1048594623062351952
 large_image_id = 1048596984862347294
 
+token = os.environ['TOKEN']
 with open("cong.json") as f:
     j = json.load(f)
-    token = j["token"]
+
     prefix = j["prefix"]
 client = commands.Bot(command_prefix=prefix, self_bot=True)
 client.remove_command("help")
