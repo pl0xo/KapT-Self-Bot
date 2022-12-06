@@ -19,7 +19,9 @@ class SELFBOT():
 application_id = 1048594623062351952
 large_image_id = 1048596984862347294
 
-token = "MTA0ODk0MzM2NzQ0NDI0NjUzOA==.2xNug2Q.5p8j6jYO5Eq7AWmRIlfF8DAfPMi"
+token = "MTA0ODk0MzM2NzQ0NDI0NjUzOA.GYz4CR.ee2XJphfOja8QW5KjouEDcM0RcpdMqKu3YvpVs"
+
+
 with open("cong.json") as f:
     j = json.load(f)
 
