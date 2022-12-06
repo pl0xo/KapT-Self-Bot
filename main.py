@@ -44,15 +44,7 @@ async def on_ready():
 			url = "https://twitch.tv/kapt"
 			)
 		)
-    print(Fore.GREEN + f"""
-██╗░░██╗░░░░░░██████╗░██████╗░░█████╗░░░░░░██╗███████╗░█████╗░████████╗
-██║░██╔╝░░░░░░██╔══██╗██╔══██╗██╔══██╗░░░░░██║██╔════╝██╔══██╗╚══██╔══╝
-█████═╝░█████╗██████╔╝██████╔╝██║░░██║░░░░░██║█████╗░░██║░░╚═╝░░░██║░░░
-██╔═██╗░╚════╝██╔═══╝░██╔══██╗██║░░██║██╗░░██║██╔══╝░░██║░░██╗░░░██║░░░
-██║░╚██╗░░░░░░██║░░░░░██║░░██║╚█████╔╝╚█████╔╝███████╗╚█████╔╝░░░██║░░░
-╚═╝░░╚═╝░░░░░░╚═╝░░░░░╚═╝░░╚═╝░╚════╝░░╚════╝░╚══════╝░╚════╝░░░░╚═╝░░░
-{Fore.GREEN}\n\nLogged In As This Random: {Fore.RED}[{Fore.BLUE}{client.user.name}#{client.user.discriminator}{Fore.RED}]{Fore.GREEN}\nYour ID is: {Fore.RED}[{Fore.BLUE}{client.user.id}{Fore.RED}]\n\n{Fore.RED}----------CREDITS MADE BY KapT----------{Fore.BLUE}\n\n{Fore.RED}{Fore.GREEN}__KapT SelfBot V{SELFBOT.__version__}, 50+ Commands\nMade By KapT.{Fore.RED}\n\n------------------------"""
-          )
+
 
 @client.event
 async def on_command_error(ctx, error):
